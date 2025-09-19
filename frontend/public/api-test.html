@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Connection Test</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .success { color: #28a745; font-weight: bold; }
+        .error { color: #dc3545; font-weight: bold; }
+        .info { color: #007bff; }
+        pre { 
+            background: #f8f9fa; 
+            padding: 15px; 
+            border-radius: 4px;
+            overflow-x: auto;
+            border: 1px solid #dee2e6;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Career Nirvana API Connection Test</h1>
+        <p>This page tests the connection between the frontend and backend APIs.</p>
+        
+        <div id="config-info">
+            <h2>Configuration Info</h2>
+            <p>API Base URL: <strong id="api-base-url">Not loaded yet</strong></p>
+        </div>
+        
+        <button id="run-test">Run Connection Test</button>
+        
+        <div id="test-results"></div>
+    </div>
+
+    <script>
+        // Get API base URL from environment
+        const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+        document.getElementById('api-base-url').textContent = API_BASE_URL;
+        
+        document.getElementById('run-test').addEventListener('click', runTests);
+        
+        async function runTests() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<p>Running tests...</p>';
+            
+            try {
+                // Test videos endpoint
+                const videosResult = await testEndpoint('/api/videos', 'Career Stories');
+                
+                // Display results
+                resultsDiv.innerHTML = `
+                    <h2>Test Results</h2>
+                    ${videosResult}
+                `;
+            } catch (error) {
+                resultsDiv.innerHTML = `
+                    <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 4px; margin: 15px 0;">
+                        <h3>❌ Test Runner Error</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+        
+        async function testEndpoint(endpoint, testName) {
+            try {
+                // Ensure endpoint starts with a single slash
+                const normalizedEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
+                const url = `${API_BASE_URL}${normalizedEndpoint}`;
+                
+                console.log(`Testing URL: ${url}`);
+                
+                const response = await fetch(url);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    return `
+                        <div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 4px; margin: 15px 0;">
+                            <h3>✅ ${testName} - PASSED</h3>
+                            <p>URL: <code>${url}</code></p>
+                            <p>Status: ${response.status} ${response.statusText}</p>
+                            <p>Found ${data.length} career stories</p>
+                            <pre>${JSON.stringify(data.slice(0, 3), null, 2)}</pre>
+                        </div>
+                    `;
+                } else {
+                    return `
+                        <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 4px; margin: 15px 0;">
+                            <h3>❌ ${testName} - FAILED</h3>
+                            <p>URL: <code>${url}</code></p>
+                            <p>Status: ${response.status} ${response.statusText}</p>
+                            <pre>${await response.text()}</pre>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                return `
+                    <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 15px; border-radius: 4px; margin: 15px 0;">
+                        <h3>❌ ${testName} - FAILED</h3>
+                        <p>Error: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // Run tests automatically when page loads
+        window.addEventListener('DOMContentLoaded', runTests);
+    </script>
+</body>
+</html>

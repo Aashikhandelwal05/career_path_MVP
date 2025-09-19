@@ -1,0 +1,122 @@
+[
+  {
+    "id": "golgappa_seller",
+    "title": "Golgappa Seller",
+    "qualification": "No formal education required",
+    "skills": ["Cooking", "Hygiene", "Customer Service"],
+    "earning": "₹8,000–₹25,000 / month",
+    "investment": "₹3,000–₹10,000 (stall, utensils, ingredients)",
+    "pros": ["Low startup cost", "Quick earnings"],
+    "cons": ["Weather dependent", "Unstable income"],
+    "growth": "Can expand into a food stall or small restaurant",
+    "description": "Prepares and sells golgappa/pani puri to customers in high-traffic areas."
+  },
+  {
+    "id": "makeup_artist",
+    "title": "Makeup Artist",
+    "qualification": "Certification or self-learning",
+    "skills": ["Creativity", "Cosmetics Knowledge", "Client Management"],
+    "earning": "₹20,000–₹80,000 / month",
+    "investment": "₹15,000–₹50,000 (makeup kits, tools)",
+    "pros": ["High demand for events", "Creative freedom"],
+    "cons": ["Unstable income initially", "Portfolio needed"],
+    "growth": "Can open salon or become celebrity makeup artist",
+    "description": "Provides beauty and styling services for weddings, shoots, and events."
+  },
+  {
+    "id": "street_food_seller",
+    "title": "Street Food Seller",
+    "qualification": "No formal degree",
+    "skills": ["Cooking", "Sales", "Basic Accounting"],
+    "earning": "₹12,000–₹40,000 / month",
+    "investment": "₹5,000–₹20,000 (cart, raw materials)",
+    "pros": ["Quick cash flow", "Popular demand"],
+    "cons": ["Licensing issues", "Long working hours"],
+    "growth": "Can expand into franchise or restaurant",
+    "description": "Sells snacks or meals in public spaces, attracting customers with taste and price."
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "qualification": "Bachelor’s in CS/Stats/Math",
+    "skills": ["SQL", "Python", "Excel", "Data Visualization"],
+    "earning": "₹40,000–₹90,000 / month",
+    "investment": "Laptop, online courses",
+    "pros": ["High demand", "Remote work possible"],
+    "cons": ["Continuous learning needed", "Competitive"],
+    "growth": "Can grow into Data Scientist or Analytics Manager",
+    "description": "Analyzes data to provide insights that help businesses make decisions."
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "qualification": "Skill training or apprenticeship",
+    "skills": ["Woodworking", "Precision", "Safety Practices"],
+    "earning": "₹15,000–₹40,000 / month",
+    "investment": "₹10,000–₹50,000 (tools, workshop space)",
+    "pros": ["Steady demand", "Hands-on craft"],
+    "cons": ["Physically demanding", "Skill-dependent"],
+    "growth": "Can open furniture business or interior services",
+    "description": "Builds and repairs wooden furniture and structures with craftsmanship."
+  },
+  {
+    "id": "rickshaw_driver",
+    "title": "Rickshaw Driver",
+    "qualification": "Driving license (for auto), basic literacy",
+    "skills": ["Driving", "Navigation", "Customer Service"],
+    "earning": "₹10,000–₹25,000 / month",
+    "investment": "₹30,000–₹2,00,000 (rickshaw purchase/rental)",
+    "pros": ["Consistent city demand", "Low entry barrier"],
+    "cons": ["Physically tiring", "Daily earnings vary"],
+    "growth": "Can own multiple vehicles or move into transport services",
+    "description": "Provides short-distance transport for passengers, often in busy city areas."
+  },
+  {
+    "id": "freelance_graphic_designer",
+    "title": "Freelance Graphic Designer",
+    "qualification": "Design degree or self-taught",
+    "skills": ["Adobe Photoshop", "Illustrator", "Creativity"],
+    "earning": "₹20,000–₹70,000 / month (project-based)",
+    "investment": "₹40,000–₹80,000 (laptop, design software)",
+    "pros": ["Work from anywhere", "Creative projects"],
+    "cons": ["Unstable income", "Client acquisition challenges"],
+    "growth": "Can build design agency or become art director",
+    "description": "Designs logos, graphics, and visuals for clients on a freelance basis."
+  },
+  {
+    "id": "student_youtuber",
+    "title": "School Student YouTuber",
+    "qualification": "Basic video editing and content knowledge",
+    "skills": ["Content Creation", "Video Editing", "Communication"],
+    "earning": "₹1,000–₹30,000 / month (ads/sponsorships)",
+    "investment": "₹5,000–₹30,000 (camera/phone, editing tools)",
+    "pros": ["Creative freedom", "Early income opportunity"],
+    "cons": ["High competition", "Takes time to grow"],
+    "growth": "Can become influencer or full-time content creator",
+    "description": "Students create videos on topics like education, gaming, or hobbies for YouTube."
+  },
+  {
+    "id": "mechanic",
+    "title": "Mechanic",
+    "qualification": "Vocational training or apprenticeship",
+    "skills": ["Repair", "Technical Knowledge", "Problem Solving"],
+    "earning": "₹12,000–₹35,000 / month",
+    "investment": "₹20,000–₹1,00,000 (tools, workshop)",
+    "pros": ["High demand in cities", "Hands-on work"],
+    "cons": ["Physically demanding", "Requires continuous skill updates"],
+    "growth": "Can open own workshop or garage",
+    "description": "Repairs and maintains vehicles, machines, or equipment."
+  },
+  {
+    "id": "homemaker_baker",
+    "title": "Homemaker Baker",
+    "qualification": "No formal degree, self-taught or short courses",
+    "skills": ["Baking", "Creativity", "Business Management"],
+    "earning": "₹5,000–₹40,000 / month (home orders)",
+    "investment": "₹5,000–₹25,000 (oven, ingredients, packaging)",
+    "pros": ["Low investment", "Work from home"],
+    "cons": ["Limited scale initially", "Irregular orders"],
+    "growth": "Can start cloud kitchen or bakery shop",
+    "description": "Homemakers who bake cakes, cookies, or snacks and sell them locally or online."
+  }
+]

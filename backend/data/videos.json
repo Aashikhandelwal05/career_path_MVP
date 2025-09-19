@@ -1,0 +1,62 @@
+[
+  {
+    "id": "golgappa_seller",
+    "title": "Golgappa Seller",
+    "thumbnail": null,
+    "short_description": "A popular street food business with low investment and high demand."
+  },
+  {
+    "id": "makeup_artist",
+    "title": "Makeup Artist",
+    "thumbnail": null,
+    "short_description": "Creative career in beauty and events with growing opportunities."
+  },
+  {
+    "id": "street_food_seller",
+    "title": "Street Food Seller",
+    "thumbnail": null,
+    "short_description": "Start a food stall and serve local delicacies with good profit margins."
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "thumbnail": null,
+    "short_description": "Analyze data to help businesses make better decisions."
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "thumbnail": null,
+    "short_description": "A skilled trade building furniture and household fittings."
+  },
+  {
+    "id": "rickshaw_driver",
+    "title": "Rickshaw Driver",
+    "thumbnail": null,
+    "short_description": "An accessible job with low entry barriers but variable income."
+  },
+  {
+    "id": "graphic_designer",
+    "title": "Freelance Graphic Designer",
+    "thumbnail": null,
+    "short_description": "Work on logos, posters, and branding as a freelancer."
+  },
+  {
+    "id": "student_youtuber",
+    "title": "School Student YouTuber",
+    "thumbnail": null,
+    "short_description": "Start creating content and build an audience while studying."
+  },
+  {
+    "id": "mechanic",
+    "title": "Mechanic",
+    "thumbnail": null,
+    "short_description": "Repair and maintain vehicles, an evergreen hands-on job."
+  },
+  {
+    "id": "baker",
+    "title": "Homemaker Baker",
+    "thumbnail": null,
+    "short_description": "Turn your kitchen skills into a small home bakery business."
+  }
+]

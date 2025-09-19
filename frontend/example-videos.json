@@ -1,0 +1,62 @@
+[
+  {
+    "id": "golgappa_seller",
+    "title": "Golgappa Seller",
+    "thumbnail": "/images/golgappa.jpg",
+    "short_description": "A popular street food business with low investment and high demand."
+  },
+  {
+    "id": "makeup_artist",
+    "title": "Makeup Artist",
+    "thumbnail": "/images/makeup.jpg",
+    "short_description": "Creative career in beauty and events with growing opportunities."
+  },
+  {
+    "id": "street_food_seller",
+    "title": "Street Food Seller",
+    "thumbnail": "/images/streetfood.jpg",
+    "short_description": "Start a food stall and serve local delicacies with good profit margins."
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "thumbnail": "/images/dataanalyst.jpg",
+    "short_description": "Analyze data to help businesses make better decisions."
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter",
+    "thumbnail": "/images/carpenter.jpg",
+    "short_description": "A skilled trade building furniture and household fittings."
+  },
+  {
+    "id": "rickshaw_driver",
+    "title": "Rickshaw Driver",
+    "thumbnail": "/images/rickshaw.jpg",
+    "short_description": "An accessible job with low entry barriers but variable income."
+  },
+  {
+    "id": "graphic_designer",
+    "title": "Freelance Graphic Designer",
+    "thumbnail": "/images/graphic.jpg",
+    "short_description": "Work on logos, posters, and branding as a freelancer."
+  },
+  {
+    "id": "student_youtuber",
+    "title": "School Student YouTuber",
+    "thumbnail": "/images/youtuber.jpg",
+    "short_description": "Start creating content and build an audience while studying."
+  },
+  {
+    "id": "mechanic",
+    "title": "Mechanic",
+    "thumbnail": "/images/mechanic.jpg",
+    "short_description": "Repair and maintain vehicles, an evergreen hands-on job."
+  },
+  {
+    "id": "baker",
+    "title": "Homemaker Baker",
+    "thumbnail": "/images/baker.jpg",
+    "short_description": "Turn your kitchen skills into a small home bakery business."
+  }
+]
