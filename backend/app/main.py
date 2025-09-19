@@ -31,10 +31,8 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS configuration
-# Get CORS origins from environment variable or use defaults
-cors_origins = os.getenv("CORS_ORIGINS", "http://localhost:8080,http://localhost:8081,http://127.0.0.1:8080,https://career-path-phi.vercel.app")
-cors_origins_list = [origin.strip() for origin in cors_origins.split(",") if origin.strip()]
+# CORS configuration - Explicitly allow your frontend domain
+cors_origins_list = ["https://career-path-mvp.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
@@ -48,7 +46,7 @@ app.add_middleware(
 @app.options("/{rest_of_path:path}")
 async def preflight_handler(request: Request):
     response = JSONResponse(content={"ok": True})
-    response.headers["Access-Control-Allow-Origin"] = request.headers.get("Origin", "*")
+    response.headers["Access-Control-Allow-Origin"] = "https://career-path-mvp.vercel.app"
     response.headers["Access-Control-Allow-Credentials"] = "true"
     response.headers["Access-Control-Allow-Methods"] = "*"
     response.headers["Access-Control-Allow-Headers"] = "*"
