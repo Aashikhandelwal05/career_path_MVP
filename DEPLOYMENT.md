@@ -1,13 +1,13 @@
 # 🚀 Career Nirvana Deployment Guide
 
-This guide explains how to deploy the Career Nirvana application with proper connectivity between the frontend and backend.
+This guide explains how to deploy the Career path application with proper connectivity between the frontend and backend.
 
 ## 🏗️ Architecture Overview
 
 - **Frontend**: React + TypeScript application hosted on Vercel
 - **Backend**: Python FastAPI application hosted on Railway
 - **Database**: JSON files stored on Railway (no external database)
-- **AI Service**: OpenRouter API for career guidance
+- **AI Service**: gemini API for career guidance
 
 ## 🔧 Backend Deployment (Railway)
 
@@ -16,7 +16,7 @@ This guide explains how to deploy the Career Nirvana application with proper con
 Set these environment variables in your Railway project:
 
 ```
-OPENROUTER_API_KEY=your_openrouter_api_key
+API_KEY=your_api_key
 CORS_ORIGINS=https://your-vercel-app.vercel.app,http://localhost:8080,http://localhost:8081
 ENVIRONMENT=production
 ```
