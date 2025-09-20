@@ -122,7 +122,7 @@ const SignupPage = () => {
     <div className="min-h-screen bg-gradient-to-br from-background to-muted flex items-center justify-center p-4">
       <Card className="w-full max-w-2xl">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl">Welcome to Career Nirvana</CardTitle>
+          <CardTitle className="text-2xl">Welcome to Career Path</CardTitle>
           <CardDescription>
             Let's get to know you better to personalize your experience
           </CardDescription>

@@ -1,6 +1,6 @@
-# 🚀 Career Nirvana Deployment Guide
+# 🚀 Career Path Deployment Guide
 
-This guide explains how to deploy the Career path application with proper connectivity between the frontend and backend.
+This guide explains how to deploy the Career Path application with proper connectivity between the frontend and backend.
 
 ## 🏗️ Architecture Overview
 

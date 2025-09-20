@@ -1,6 +1,6 @@
-# Career Nirvana Backend API
+# Career Path Backend API
 
-FastAPI backend for the Career Nirvana platform with OpenRouter AI integration.
+FastAPI backend for the Career Path platform with OpenRouter AI integration.
 
 **Note: This backend is now configured to work with the production frontend at https://career-path-theta.vercel.app**
 

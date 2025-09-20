@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Career Nirvana Backend Server for Railway Deployment
+Career Path Backend Server for Railway Deployment
 Production-ready script to start the FastAPI server
 """
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     host = os.getenv("API_HOST", "0.0.0.0")
     port = int(os.getenv("PORT", 8000))  # Railway uses PORT environment variable
     
-    print(f"🚀 Starting Career Nirvana API Server...")
+    print(f"🚀 Starting Career Path API Server...")
     print(f"🌐 Server will be available at: http://{host}:{port}")
     print(f"📚 API Documentation: http://{host}:{port}/docs")
     

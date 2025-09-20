@@ -1,5 +1,5 @@
 """
-Career Nirvana Backend API
+Career Path Backend API
 FastAPI application for career guidance platform with OpenRouter AI integration
 """
 
@@ -26,7 +26,7 @@ load_dotenv()
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Career Nirvana API",
+    title="Career Path API",
     description="Backend API for Career Guidance Platform with AI Integration",
     version="1.0.0"
 )
@@ -144,7 +144,7 @@ def get_user_by_id(user_id: str) -> Optional[Dict[str, Any]]:
 async def root():
     """Health check endpoint."""
     return {
-        "message": "Career Nirvana API is running!",
+        "message": "Career Path API is running!",
         "version": "1.0.0",
         "status": "healthy"
     }
@@ -310,7 +310,7 @@ USER CONTEXT:
                         "Authorization": f"Bearer {api_key}",
                         "Content-Type": "application/json",
                         "HTTP-Referer": "http://localhost:8000",  # Optional: helps with rate limiting
-                        "X-Title": "Career Nirvana"  # Optional: helps with monitoring
+                        "X-Title": "Career Path"  # Optional: helps with monitoring
                     },
                     json={
                         "model": "meta-llama/llama-3.2-3b-instruct:free",  # Using a more reliable free model

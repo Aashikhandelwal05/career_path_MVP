@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Career Nirvana Backend Server Runner
+Career Path Backend Server Runner
 Quick script to start the FastAPI server
 """
 
@@ -16,7 +16,7 @@ if __name__ == "__main__":
     host = os.getenv("API_HOST", "0.0.0.0")
     port = int(os.getenv("API_PORT", 8000))
     
-    print(f"🚀 Starting Career Nirvana API Server...")
+    print(f"🚀 Starting Career Path API Server...")
     print(f"🌐 Server will be available at: http://{host}:{port}")
     print(f"📚 API Documentation: http://localhost:{port}/docs")
     print(f"🔧 Make sure your OpenRouter API key is set in .env file")

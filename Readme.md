@@ -187,34 +187,6 @@ MVP: https://careerpath-production-fd70.up.railway.app
 - $2B+ edtech market in India
 - Growing demand for personalized learning solutions
 
-## 🔮 Future Roadmap
-
-### Phase 1: Enhanced Personalization (Q1 2025)
-- [ ] Real AI integration with OpenRouter
-- [ ] Expanded career database (50+ careers)
-- [ ] User profile enhancement
-
-### Phase 2: Content & Community (Q2 2025)
-- [ ] Video content pipeline
-- [ ] User-generated stories
-- [ ] Community features
-
-### Phase 3: Experience Hub (Q3 2025)
-- [ ] Micro-internships marketplace
-- [ ] Mentor matching system
-- [ ] Skill assessment tools
-
-### Phase 4: Scale & Monetization (Q4 2025)
-- [ ] Multi-language support
-- [ ] Mobile app launch
-- [ ] Premium features
-
-## 👥 Team
-
-- 👨‍💻 **Aashik H** - Full Stack Developer & AI Integration
-- 👩‍💻 **[Your Name]** - UI/UX Designer & Frontend Developer
-- 👨‍💼 **[Your Name]** - Product Manager & Business Strategy
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
