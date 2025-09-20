@@ -25,7 +25,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto px-6 py-12">
         <div className="text-center mb-16">
           <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
-            About Career<span className="text-coral">Nirvana</span>
+            About Career<span className="text-coral">Path</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Helping young Indians discover careers that actually make sense to them
